@@ -1,0 +1,26 @@
+#pokemon-sprites-container{
+    width: 130px;
+    height: 90px;
+    border-radius: 6px ;
+    position: relative;
+    top: 160px;
+    right: 100px;
+
+}
+
+#pokemon-name-container{
+    width: 150px;
+    height: 20px;
+    border-radius: 6px ;
+    position: relative;
+    top: 160px;
+    right: 100px;
+    background-color: cadetblue;
+}
+
+
+#pokedex-img{
+    max-width: 500px;
+    max-height: 500px;
+    position: absolute;
+}
