@@ -39,15 +39,11 @@ function buscarPokemon(pokemon) {
     idContainer.innerHTML = '';
     idContainer.appendChild(pokeId)
 
-    /*Tipos ESTO NO FUNCIONA ARREGLALO WEY*/
-    const containerType1 = document.getElementById('pokemon-type-container-1');
-    const containerType2 = document.getElementById('pokemon-type-container-2');
+    /*Tipos*/
+    const containerTypes = document.getElementById('pokemon-type-container');
+    const types = pokemon.types.map((type) => `<p>${type.type.name}</p>`);
+    containerTypes.innerHTML = types.join('/');
 
-    const pokeType = document.createElement('p');
-    pokeType.textContent = pokemon.types.type
-    containerType1.innerHTML = '';
-    containerType2.innerHTML = '';
-    containerType1.appendChild(pokeType);
-    containerType2.appendChild(pokeType)
+
 }  
 

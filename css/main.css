@@ -1,3 +1,6 @@
+/*body{
+        PONER BACKGROUND!
+}*/
 
 #pokemon-sprites-container{
     width: 160px;
@@ -39,20 +42,20 @@
     font-size: 10px;
 }
 
-#pokemon-type-container-1{
-    width: 78px;
-    height: 26px;
-    bottom: 100px;
+#pokemon-type-container{
+    width: 165px;
+    height: 27px;
+    bottom: 126px;
     left: 300px;
     border: 2px solid black;
     border-radius: 5px ;
     position: relative;
-    background-color: rgb(8, 64, 53);
+    background-color: rgb(71, 168, 107);
     font-family: 'Press Start 2P', sans-serif;
     font-size: 10px;
 }
 
-#pokemon-type-container-2{
+/*#pokemon-type-container-2{
     width: 78px;
     height: 26px;
     bottom: 126px;
@@ -63,7 +66,7 @@
     background-color: rgb(8, 64, 53);
     font-family: 'Press Start 2P', sans-serif;
     font-size: 10px;
-}
+}*/
 
 
 #pokedex-img{
