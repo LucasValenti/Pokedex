@@ -1,6 +1,8 @@
-/*body{
-        PONER BACKGROUND!
-}*/
+body{
+    background-image: url("/img/vamoacalmarnosprite1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 #pokemon-sprites-container{
     width: 160px;
@@ -11,7 +13,7 @@
 
     border: 2px solid black;
     border-radius: 6px;
-    background-color: rgb(8, 64, 53);
+    background-color: rgb(71, 168, 107);
 
 }
 
