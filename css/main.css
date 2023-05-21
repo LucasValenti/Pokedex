@@ -1,8 +1,8 @@
-body{
+/*body{
     background-image: url("/img/vamoacalmarnosprite1.png");
     background-repeat: no-repeat;
     background-size: cover;
-}
+}*/
 
 #pokemon-sprites-container{
     width: 160px;
@@ -32,8 +32,7 @@ body{
 
 #pokemon-id-container{
     width: 90px;
-    height: 45px;
-    border-radius: 5px ;  
+    height: 45px;  
     top: 205px;
     left: 60px;
     position: relative;
@@ -57,19 +56,6 @@ body{
     font-size: 10px;
 }
 
-/*#pokemon-type-container-2{
-    width: 78px;
-    height: 26px;
-    bottom: 126px;
-    left: 386px;
-    border: 2px solid black;
-    border-radius: 5px ;
-    position: relative;
-    background-color: rgb(8, 64, 53);
-    font-family: 'Press Start 2P', sans-serif;
-    font-size: 10px;
-}*/
-
 
 #pokedex-img{
     max-width: 500px;
@@ -80,4 +66,81 @@ body{
 #boxContent{
     width: 500px;
     height: 500px;
+}
+
+/* Estilos generales */
+
+body {
+    background-image: url("/img/vamoacalmarnosprite1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 767px) {
+
+    body{
+        background-image: url("/img/mobileversionfixed.png");
+        background-repeat: no-repeat;
+    }
+
+    #pokedex-img{
+        width: 380px;
+        height: auto;
+        padding-right: 15px;
+    }
+
+    
+    #pokemon-sprites-container{
+    width: 120px;
+    height: 80px;
+    top: 125px;
+    left: 35px;    
+    position: relative;
+
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: rgb(71, 168, 107);
+    }
+
+    
+    #pokemon-name-container{
+    width: 120px;
+    height: 20px;    
+    top: 125px;
+    left: 45px;
+    position: relative;
+    background-color: rgb(227, 227, 227);
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 10px;
+    }
+
+    
+    #pokemon-id-container{
+    width: 70px;
+    height: 30px;  
+    top: 160px;
+    left: 45px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(71, 168, 107);
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 10px;
+    }
+
+    
+    #pokemon-type-container{
+    width: 135px;
+    height: 25px;
+    bottom: 210px;
+    left: 215px;
+    border: 2px solid black;
+    border-radius: 5px ;
+    position: relative;
+    background-color: rgb(71, 168, 107);
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 10px;
+    }
+
 }
