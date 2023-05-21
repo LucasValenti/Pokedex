@@ -47,3 +47,8 @@ function buscarPokemon(pokemon) {
 
 }  
 
+/*Funcion para que lo que agrege el usuario se ponga en minuscula con el lowercase y se quiten los espaciados con el trim*/
+function convertirAMinusculas(event) {
+    var input = event.target;
+    input.value = input.value.toLowerCase().trim();
+}

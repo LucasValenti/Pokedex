@@ -24,7 +24,7 @@
 
     <header>
         <form class="container d-flex justify-content-center gap-2 pt-3">
-            <input id="btn-buscar-poke" class="form-control" type="text" name="pokemon" autocomplete="off" oninput="this.value = this.value.toLowerCase()">
+            <input id="btn-buscar-poke" class="form-control" type="text" name="pokemon" autocomplete="off" oninput="convertirAMinusculas(event)">
             <button id="btn-buscar" type="submit" class="btn btn-danger" onclick="buscarPokemon()">Buscar</button>
         </form>
     </header>
