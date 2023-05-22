@@ -44,6 +44,8 @@ function buscarPokemon(pokemon) {
     const types = pokemon.types.map((type) => `<p>${type.type.name}</p>`);
     containerTypes.innerHTML = types.join('/');
 
+    /*Stats*/
+    
 
 }  
 
