@@ -14,7 +14,7 @@ input{
 #pokemon-sprites-container{
     width: 160px;
     height: 110px;
-    top: 35px;
+    top: 50px;
     right: 35px;    
     position: relative;
     border-radius: 6px;
@@ -53,6 +53,7 @@ input{
 }
 
 
+
 #pokedex-img{
     width: 500px;
     height: 400px;
@@ -61,6 +62,20 @@ input{
 
 #boxContent{
     padding-top: 100px;
+}
+
+#statsContainer{
+
+    position: relative;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 5px;
+}
+
+
+#statsName{
+    position: relative;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 5px;
 }
 
 
@@ -74,11 +89,6 @@ input{
         background-size: cover;
         
     }
-
-    #boxContent{
-        padding: 200px 0 0 0;
-        }
-    
     
     #pokedex-img{
         width: 380px;
@@ -87,24 +97,19 @@ input{
 
     
     #pokemon-sprites-container{
-    width: 120px;
-    height: 80px;
-    top: 25px;
-    left: 15px;    
+    top: 84px;
+    left: 60px;    
     position: relative;
-    border-radius: 6px;
     }
 
     #pokemon-sprites-container, img{
-        width: 65px;
-        height: 65px;
+        width: 70px;
+        height: 70px;
     }
     
-    #pokemon-name-container{
-    width: 120px;
-    height: 20px;    
-    top: 40px;
-    left: -25px;
+    #pokemon-name-container{ 
+    top: 100px;
+    left: 70px;
     position: relative;
     font-family: 'Press Start 2P', sans-serif;
     font-size: 8px;
@@ -112,24 +117,47 @@ input{
 
     
     #pokemon-id-container{
-    width: 60px;
-    height: 30px;  
-    top: 78px;
-    left: -4px;
+    top: 132px;
+    left: 60px;
+    position: relative;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 8px;
+    }
+
+    
+    #pokemon-type-container{
+    top: 86px;
+    left: 210px;
     position: relative;
     font-family: 'Press Start 2P', sans-serif;
     font-size: 7px;
     }
 
-    
-    #pokemon-type-container{
-    width: 150px;
-    height: 25px;
-    top: 125px;
-    left: 40px;
-    position: relative;
-    font-family: 'Press Start 2P', sans-serif;
-    font-size: 7px;
+    #statsName{
+        width: 10px;
+        bottom: 72px;
+        left: 250px;
+        position: relative;
+        font-family: 'Press Start 2P', sans-serif;
+        font-size: 5px;
+        font-weight: 800;
+    }
+
+    p{
+        margin: 2px;
+    }
+
+    #statsContainer{
+        height: 80px;
+        width: 10px;
+        bottom: 155px;
+        left: 320px;
+        position: relative;
+        font-family: 'Press Start 2P', sans-serif;
+        font-size: 5px;
+        font-weight: 800;
+        gap: .18rem!important;
+
     }
 
 }

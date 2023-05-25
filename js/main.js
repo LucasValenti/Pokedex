@@ -15,13 +15,12 @@ function fetchName(name){
 
 
 function buscarPokemon(pokemon) {
-    const nombrePokemon = document.getElementById('btn-buscar-poke').getAttribute('value');
 
     /*Trae las Sprite de los pokemon que el usuario ingresa*/
     const spriteContainer = document.getElementById('pokemon-sprites-container');
     const sprite = document.createElement('img');
     sprite.src = pokemon.sprites.front_default;
-    sprite.alt = nombrePokemon;
+    /*sprite.alt = nombrePokemon;*/
     spriteContainer.innerHTML = '';
     spriteContainer.appendChild(sprite);
 
@@ -35,7 +34,7 @@ function buscarPokemon(pokemon) {
     /*ID*/
     const idContainer = document.getElementById('pokemon-id-container');
     const pokeId = document.createElement('p');
-    pokeId.textContent = `#${pokemon.id.toString().padStart(3, 0)}`;
+    pokeId.textContent = `#${pokemon.id.toString().padStart(4, 0)}`;
     idContainer.innerHTML = '';
     idContainer.appendChild(pokeId)
 
@@ -45,7 +44,17 @@ function buscarPokemon(pokemon) {
     containerTypes.innerHTML = types.join('/');
 
     /*Stats*/
-    
+
+    const statsContainer = document.getElementById('statsContainer');
+    const pokeStats = pokemon.stats.map((stat) =>`<p>${stat.base_stat}</p>`);
+    statsContainer.innerHTML = pokeStats.join('');
+
+    /*Stats Name*/
+    const statsName = document.getElementById('statsName');
+    const pokeStatsName = pokemon.stats.map((stat) =>`<p>${stat.stat.name}:</p>`);
+    statsName.innerHTML = pokeStatsName.join('');
+
+
 
 }  
 
