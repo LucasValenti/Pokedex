@@ -15,36 +15,32 @@
     <!--MIS ESTILOS-->
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon" href="img/icons8-squirtle-bubbles-16.png" type="image/png">
-
-
     <title>Pokedex</title>
 </head>
 
 <body>
-
+    <!--BARRA DE BUSQUEDA-->
     <header>
-        <form class="container d-flex justify-content-center gap-2 py-5">
-            <input id="btn-buscar-poke" class="form-control w-50" type="text" name="pokemon" placeholder="ID o Nombre de tu Pokemon" autocomplete="off" oninput="convertirAMinusculas(event)">
+        <form class="container d-flex justify-content-center gap-1 py-5">
+            <input id="btn-buscar-poke" class="form-control" type="text" name="pokemon" placeholder="ID o Nombre de tu Pokemon" autocomplete="off" oninput="convertirAMinusculas(event)">
             <button id="btn-buscar" type="submit" class="btn btn-danger" onclick="buscarPokemon()">Buscar</button>
         </form>
     </header>
 
-
-    <div id="boxContent" class="px-3">
-        <img src="img/pokedexfixed.png" id="pokedex-img" alt="Pokedex">
-        <div>
-            <div id="pokemon-sprites-container"></div>
-            <div id="pokemon-name-container"></div>
-            <div id="pokemon-id-container"></div>
-        </div>
-
-        <div>
-            <div id="pokemon-type-container" class="d-flex gap-1 justify-content-center"></div>
-            <div id="statsName" class="d-flex flex-column"></div>
-            <div id="statsContainer" class="d-flex flex-column gap-1"></div>
-        </div>    
+    <!--IMAGEN DEL POKEDEX QUE CONTIENE A TODOS LOS CONTENEDORES DE INFORMACION-->
+    <div id="allPokeInfo" class="container position-relative d-flex justify-content-center ">
+        <img src="img/pokedexfixed.png" id="pokedex-img" class="position-absolute d-flex justify-content-center" alt="Pokedex">
+            <div class="row">
+                <div id="pokemon-sprites-container" class="position-absolute"></div>
+                <div id="pokemon-name-container" class="d-flex justify-content-center position-absolute"></div>
+                <div id="pokemon-id-container" class="position-absolute"></div>
+            </div>
+            <div class="row">
+                <div id="pokemon-type-container" class="d-flex justify-content-center position-absolute"></div>
+                <div id="statsName" class="position-absolute"></div>
+                <div id="statsContainer" class="d-grid gap-1 position-absolute"></div>
+            </div>    
     </div>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
