@@ -308,8 +308,25 @@
         padding: 0;
     }
 
+    .btn-danger{
+        border-radius: 25px;
+    }
+    .navbar-brand{
+        color: #ffffff;
+    }
+
+    .form-control{
+        border: #ffffff;
+        border-radius: 25px;
+        background-color: #ffffff;
+        box-shadow: 0px 0px 31px 1px rgb(200, 200, 200) inset;
+        -webkit-box-shadow: 0px 0px 31px 1px rgb(200, 200, 200) inset;
+        -moz-box-shadow: 0px 0px 31px 1px rgb(200, 200, 200) inset;
+    }
+
+
     p{
-        margin: 1.5px;
+        margin: 1px;
     }
 
     #allPokeInfo{
@@ -358,17 +375,17 @@
     }
 
     #statsName{
-        top: 84px;
+        top: 86px;
         left: 192px;
         font-family: 'Press Start 2P', sans-serif;
-        font-size: 5px;
+        font-size: 4px;
         font-weight: 600;
         width: 0;
-
+        gap: 0.1rem!important;
     }
 
     #statsContainer{
-        top: 84px;
+        top: 86px;
         left: 250px;
         font-family: 'Press Start 2P', sans-serif;
         font-size: 5px;
@@ -390,13 +407,34 @@
         padding: 0;
     }
     
-    input{
-        box-shadow: 1px 2px 17px -1px rgba(0,0,0,0.83);
-        -webkit-box-shadow: 1px 2px 17px -1px rgba(0,0,0,0.83);
-        -moz-box-shadow: 1px 2px 17px -1px rgba(0,0,0,0.83);
+    .btn-danger{
+        border-radius: 25px;
+    }
+    .navbar-brand{
+        color: #ffffff;
+    }
+
+    .form-control{
+        border: #ffffff;
+        border-radius: 25px;
+        margin: 0;
+        background-color: #ffffff;
+        box-shadow: 0px 0px 31px 1px rgb(200, 200, 200) inset;
+        -webkit-box-shadow: 0px 0px 31px 1px rgb(200, 200, 200) inset;
+        -moz-box-shadow: 0px 0px 31px 1px rgb(200, 200, 200) inset;
+    }
+
+    .navbar {
+        margin-top: 3px;
+        margin-bottom: 50px;
+        background-color: #e3e3e300;
+        width: 100%;
+
+    }
+    .navbar, a, p{
+        font-size: 10px;
     }
     
-
     #pokedex-img{
         width: 700px;
         height: auto;
@@ -447,23 +485,24 @@
     }
 
     #statsName{
-        top: 182px;
+        top: 185px;
         left: 440px;
         font-family: 'Press Start 2P', sans-serif;
         font-size: 12px;
         font-weight: 600;
+        gap: 0.15rem!important;
         width: 0;
 
     }
 
     #statsContainer{
-        top: 183px;
+        top: 188px;
         left: 570px;
         font-family: 'Press Start 2P', sans-serif;
         font-size: 12px;
         font-weight: 600;
         width: 0;
-        gap: 0.35rem!important;
+        gap: 0.45rem!important;
     }
 
 }
