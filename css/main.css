@@ -3,293 +3,8 @@
     padding: 0;
 }
 
-
-/* Estilos generales */
-
-
-#pokemon-sprites-container{  
-
-}
-
-#pokemon-name-container{
-
-    font-family: 'Press Start 2P', sans-serif;
-    font-size: 10px;
-
-}
-
-
-#pokemon-id-container{
-
-    font-family: 'Press Start 2P', sans-serif;
-    font-size: 9px;
-}
-
-#pokemon-type-container{
-    font-family: 'Press Start 2P', sans-serif;
-    font-size: 10px;
-}
-
-#statsContainer{
-    font-family: 'Press Start 2P', sans-serif;
-    font-size: 5px;
-}
-
-
-#statsName{
-    font-family: 'Press Start 2P', sans-serif;
-    font-size: 5px;
-}
-
-
-#pokedex-img{
-}
-
-
-
-/* Estilos para pantallas pequeñas */
-
-/*@media screen and (min-width: 1280px) {
-
-    html, body{
-        background-image: url("/img/pokebgmobil.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-    p{
-        margin: 2px;
-    }
-    
-    #pokedex-img{
-        width: 100%;
-        height: auto;
-    }
-
-    
-    #pokemon-sprites-container{
-        top: 115px;
-        left: 38px;
-        width: 0;
-    }
-    
-    #pokemon-sprites-container, img{
-        width: 70px;
-        height: 70px;
-    }
-
-    #pokemon-name-container{
-        top: 190px;
-        left: 25px;
-        font-family: 'Press Start 2P', sans-serif;
-        font-size: 6px;
-        width: 140px;
-    }
-
-    #pokemon-id-container{
-        top: 242px;
-        left: 40px;
-        font-family: 'Press Start 2P', sans-serif;
-        font-size: 6px;
-        width: 0;
-    }
-
-    #pokemon-type-container{
-        top: 242px;
-        left: 232px;
-        font-family: 'Press Start 2P', sans-serif;
-        font-size: 6px;
-        width: 0;
-    }
-
-    #statsName{
-        top: 130px;
-        left: 190px;
-        font-family: 'Press Start 2P', sans-serif;
-        font-size: 5px;
-        font-weight: 600;
-        width: 0;
-
-    }
-
-    #statsContainer{
-        top: 130px;
-        left: 250px;
-        font-family: 'Press Start 2P', sans-serif;
-        font-size: 5px;
-        font-weight: 600;
-        width: 0;
-        gap: 0.05rem!important;
-    }
-
-}
-
-
-/***************************************************************************
-@media (min-width: 320px) {
-
-    html, body{
-        background-image: url("/img/pokebgmobil.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-    p{
-        margin: 1px;
-    }
-
-    #pokedex-img{
-        width: 320px;
-        height: auto;
-    }
-
-
-    
-    #pokemon-sprites-container{
-        top: 68px;
-        left: 35px;
-        width: 0;
-    }
-    
-    #pokemon-sprites-container, img{
-        width: 70px;
-        height: 70px;
-    }
-
-    #pokemon-name-container{
-        top: 145px;
-        left: 25px;
-        font-family: 'Press Start 2P', sans-serif;
-        font-size: 6px;
-        width: 140px;
-    }
-
-    #pokemon-id-container{
-        top: 197px;
-        left: 42px;
-        font-family: 'Press Start 2P', sans-serif;
-        font-size: 6px;
-        width: 0;
-    }
-
-    #pokemon-type-container{
-        top: 197px;
-        left: 232px;
-        font-family: 'Press Start 2P', sans-serif;
-        font-size: 6px;
-        width: 0;
-    }
-
-    #statsName{
-        top: 85px;
-        left: 190px;
-        font-family: 'Press Start 2P', sans-serif;
-        font-size: 5px;
-        font-weight: 600;
-        width: 0;
-
-    }
-
-    #statsContainer{
-        top: 85px;
-        left: 250px;
-        font-family: 'Press Start 2P', sans-serif;
-        font-size: 5px;
-        font-weight: 600;
-        width: 0;
-        gap: 0.12rem!important;
-    }
-
-}
-
-/***************************************************************************
-
-@media (min-width: 375px) {     
-    
-    html, body{
-        background-image: url("/img/pokebgmobil.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-    p{
-        margin: 1px;
-    }
-
-    #pokedex-img{
-    width: 375px;
-    height: auto;
-    }
-    
-    #pokemon-sprites-container{
-        top: 80px;
-        left: 50px;
-        width: 0;
-    }
-    
-    #pokemon-sprites-container, img{
-        width: 70px;
-        height: 70px;
-    }
-
-    #pokemon-name-container{
-        top: 167px;
-        left: 40px;
-        font-family: 'Press Start 2P', sans-serif;
-        font-size: 7px;
-        width: 140px;
-    }
-
-    #pokemon-id-container{
-        top: 228px;
-        left: 50px;
-        font-family: 'Press Start 2P', sans-serif;
-        font-size: 7px;
-        width: 0;
-    }
-
-    #pokemon-type-container{
-        top: 230px;
-        left: 275px;
-        font-family: 'Press Start 2P', sans-serif;
-        font-size: 7px;
-        width: 0;
-    }
-
-    #statsName{
-        top: 100px;
-        left: 230px;
-        font-family: 'Press Start 2P', sans-serif;
-        font-size: 6px;
-        font-weight: 600;
-        width: 0;
-
-    }
-
-    #statsContainer{
-        top: 100px;
-        left: 300px;
-        font-family: 'Press Start 2P', sans-serif;
-        font-size: 6px;
-        font-weight: 600;
-        width: 0;
-        gap: 0.18rem!important;
-    }
-
-
-}
-*/
-
 /***************************************************************************/
+
 @media (max-width: 575.98px) {
 
     input{
@@ -352,7 +67,7 @@
 
     #pokemon-name-container{
         top: 142px;
-        left: 26px;
+        left: 10px;
         font-family: 'Press Start 2P', sans-serif;
         font-size: 6px;
         width: 140px;
@@ -373,31 +88,48 @@
         font-size: 6px;
         width: 0;
     }
-
     #statsName{
-        top: 86px;
-        left: 192px;
+        top: 82px;
+        left: 185px;
         font-family: 'Press Start 2P', sans-serif;
-        font-size: 4px;
-        font-weight: 600;
-        width: 0;
-        gap: 0.1rem!important;
+        gap: .01rem!important;
+
     }
 
-    #statsContainer{
-        top: 86px;
-        left: 250px;
-        font-family: 'Press Start 2P', sans-serif;
-        font-size: 5px;
-        font-weight: 600;
-        width: 0;
-        gap: 0.1rem!important;
+    #statsName p{
+        width: 60px;
+        margin: 0;
+        padding: 0;
+        font-size: 6px;
     }
-    
+
+    #progressBarContainer, .progress{
+        top: 84px;
+        left: 235px;
+        width: 23%;
+        height: 70px;
+        gap: 0.1rem!important;
+
+        font-family: 'Press Start 2P', sans-serif;
+        font-size: 6px;
+        /*color del bg de la barra*/
+        --bs-progress-bg: rgba(98, 186, 123, 0)!important;
+        /*color de los numeros*/
+        --bs-progress-bar-color: #000000!important;
+        /*color de la barra de los numeros*/
+        --bs-progress-bar-bg: rgba(1, 61, 8, 0.543)!important;
+    }
+    .progress-bar{
+        overflow: visible;
+        text-align: center;
+    }
 }
 
+
 /***************************************************************************/
-@media (min-width: 768px) {
+
+
+@media (min-width: 576px) {
 
     html, body {
         background-image: url("/img/pokebgpc.png");
@@ -425,84 +157,97 @@
     }
 
     .navbar {
-        margin-top: 3px;
         margin-bottom: 50px;
         background-color: #e3e3e300;
         width: 100%;
 
     }
-    .navbar, a, p{
-        font-size: 10px;
-    }
-    
+
     #pokedex-img{
-        width: 700px;
+        width: 500px;
         height: auto;
         }
 
     p{
         margin: 1.5px;
+        font-size: 9px;
+
     }
 
     #allPokeInfo{
-        width: 700px;
+        width: 500px;
         height: auto;
     }
 
     #pokemon-sprites-container{
-        top: 165px;
-        left: 110px;
+        top: 110px;
+        left: 70px;
         width: 0;
     }
     
     #pokemon-sprites-container, img{
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
     }
 
     #pokemon-name-container{
-        top: 310px;
-        left: 115px;
+        top: 223px;
+        left: 20px;
         font-family: 'Press Start 2P', sans-serif;
         font-size: 12px;
         width: 210px;
     }
 
     #pokemon-id-container{
-        top: 428px;
-        left: 105px;
+        top: 304px;
+        left: 70px;
         font-family: 'Press Start 2P', sans-serif;
         font-size: 12px;
         width: 0;
     }
 
     #pokemon-type-container{
-        top: 428px;
-        left: 520px;
+        top: 305px;
+        left: 370px;
         font-family: 'Press Start 2P', sans-serif;
-        font-size: 12px;
+        font-size: 10px;
         width: 0;
     }
 
     #statsName{
-        top: 185px;
-        left: 440px;
+        top: 134px;
+        left: 300px;
         font-family: 'Press Start 2P', sans-serif;
-        font-size: 12px;
-        font-weight: 600;
-        gap: 0.15rem!important;
-        width: 0;
+        gap: .1rem!important;
 
     }
 
-    #statsContainer{
-        top: 188px;
-        left: 570px;
+    #statsName p{
+        width: 60px;
+        margin: 0;
+        padding: 0;
+        font-size: 8px;
+    }
+
+    #progressBarContainer, .progress{
+        top: 133px;
+        left: 365px;
+        width: 23%;
+        gap: 0.14rem!important;
+
         font-family: 'Press Start 2P', sans-serif;
-        font-size: 12px;
-        font-weight: 600;
-        width: 0;
-        gap: 0.45rem!important;
+        font-size: 8px;
+        /*color del bg de la barra*/
+        --bs-progress-bg: rgba(98, 186, 123, 0)!important;
+        /*color de los numeros*/
+        --bs-progress-bar-color: #000000!important;
+        /*color de la barra de los numeros*/
+        --bs-progress-bar-bg: rgba(1, 61, 8, 0.543)!important;
+    }
+
+    .progress-bar{
+        overflow: visible;
+        text-align: center;
     }
 
 }
